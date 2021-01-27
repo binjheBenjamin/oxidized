@@ -18,6 +18,10 @@ class IOSXR < Oxidized::Model
     comment cfg
   end
 
+  cmd 'show cdp neighbors' do |cfg|
+    comment cfg
+  end
+
   cmd 'show platform' do |cfg|
     comment cfg
   end
